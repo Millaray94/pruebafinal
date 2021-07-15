@@ -3,6 +3,7 @@ body {
 }
 
 hr {
+<<<<<<< HEAD
     background-color: #17A3B8;
     height: 2px;
 }
@@ -12,3 +13,7 @@ hr {
 
 }
 
+=======
+  background-color: #17A3B8;
+}
+>>>>>>> main
