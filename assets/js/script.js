@@ -1,9 +1,12 @@
-$(function (){
-    $(window).scroll(function(){
-       if ($(this).scrollTop() > 100) {
-        $("#menu").addClass("bg-dark");
-       } else {
-        $("#menu").removeClass("bg-dark");
+// NAVBAR SCROLL
+    $(window).scroll(function() {
+     if ($("#menu").offset().top > 500) {        
+         $("#menu").removeClass("bg-transparent");
+        $("#menu").addClass("navbar-opacity");
+       } else {        
+        $("#menu").addClass("bg-transparent");
+        $("#menu").removeClass("navbar-opacity");
        }
-    });
 });
+
+// FIN NAVBAR SCROLL

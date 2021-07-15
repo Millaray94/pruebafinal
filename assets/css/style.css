@@ -4,9 +4,20 @@ body {
 
 hr {
     background-color: #17A3B8;
-    height: 2px;
+    height: 1px;
+    width: 90%;
 }
 
 .footer {
     background-color: #17A3B8;
+}
+
+.navbar-opacity {
+    background-color: black;
+    opacity:0.9;
+    transition: all 1s ease;
+} 
+
+.bg-transparent {
+    transition: all 1s ease;
 }
