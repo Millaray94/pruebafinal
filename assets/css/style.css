@@ -3,17 +3,10 @@ body {
 }
 
 hr {
-<<<<<<< HEAD
     background-color: #17A3B8;
     height: 2px;
 }
 
-.parrafo-avion text-light {
-     width: 50px;
-
+.footer {
+    background-color: #17A3B8;
 }
-
-=======
-  background-color: #17A3B8;
-}
->>>>>>> main
