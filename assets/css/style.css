@@ -35,4 +35,10 @@ hr {
     background-color: #17A3B8;
 }
 
+.navbar-toggler {
+    background-color: white;
+    opacity: 0.5;
+    
+}
+
 

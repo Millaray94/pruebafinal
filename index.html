@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
+ <html lang="es">
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/svg" href="assets/img/viajes.svg">
 
     <!--CSS DE BOOTSTRAP-->
 
@@ -23,14 +24,13 @@
     <link rel="stylesheet" href="assets/css/style.css">
 
     <title>Viajes Chile</title>
-</head>
+  </head>
 <body>
   
     <!--Navbar-->
-  <div class="row">
-    <div class="col-12">
+  
     <nav id="menu" class="navbar navbar-expand-lg navbar-light fixed-top bg-transparent">
-      <a class="navbar-brand text-light" href="#"><img src="assets/img/viajes.svg" class="img-fluid" width="40" alt="logo" class="logo">Viajes Chile</a>
+      <a class="navbar-brand text-light" href="#"><img src="assets/img/viajes.svg" class="img-fluid" width="40" alt="logo">Viajes Chile</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -49,10 +49,11 @@
               <a class="nav-link  text-light" href="#Contacto" tabindex="-1">Contacto</a>
             </li>
           </ul>
-        </div>
-      </div>
-    </div>
-    </nav>
+          </div>
+        </nav>
+      
+  
+   
  
      
     <!--Carousel-->
@@ -165,11 +166,11 @@
       </div>
 
       <!-- Modal Torres del Paine-->
-        <div class="modal fade" id="card1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal fade" id="card1" tabindex="-1" aria-hidden="true">
           <div class="modal-dialog">
             <div class="modal-content">
               <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Torres del Paine</h5>
+                <h5 class="modal-title">Torres del Paine</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">&times;</span>
                 </button>
@@ -189,11 +190,11 @@
 
       <!-- Modal Laguna Lejía-->
 
-      <div class="modal fade" id="card2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal fade" id="card2" tabindex="-1" aria-hidden="true">
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Laguna Lejía</h5>
+              <h5 class="modal-title">Laguna Lejía</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
@@ -213,11 +214,11 @@
 
       <!-- Modal Reserva nacional los flamencos-->
 
-      <div class="modal fade" id="card3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal fade" id="card3" tabindex="-1" aria-hidden="true">
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Reserva Nacional Los Flamencos</h5>
+              <h5 class="modal-title">Reserva Nacional Los Flamencos</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
@@ -237,11 +238,11 @@
 
       <!-- Modal Bosque Valdiviano-->
 
-      <div class="modal fade" id="card4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal fade" id="card4" tabindex="-1"  aria-hidden="true">
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Bosque Valdiviano</h5>
+              <h5 class="modal-title">Bosque Valdiviano</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
@@ -271,17 +272,17 @@
  
     <!--Footer-->
 
-      <footer class="redes text-white">
+      <footer class="redes">
         <div class="container-fluid">
           <div class="row">
             <div class="col col-lg-6 col-sm-12 my-4 pl-5">
-              <h3>VIAJES CHILE</h3>
+              <h3 class="viajes-chile  text-white">VIAJES CHILE</h3>
             </div>
             <div class="col col-lg-6 col-sm-12 my-3 pr-5 text-right">
-              <i class="p-2 fab fa-github-square fa-2x"></i>
-                <i class="p-2 fab fa-linkedin fa-2x"></i>
-                <i class="p-2 fab fa-twitter-square fa-2x"></i>
-                <i class="p-2 fab fa-facebook-square fa-2x"></i>
+              <a href="https://github.com/" target="_blank"> <i class="p-2 text-white fab fa-github-square fa-2x"></i></a>
+              <a href="https://linkedin.com/" target="_blank"> <i class="p-2 text-white fab fa-linkedin fa-2x"></i></a>
+              <a href="https://twitter.com/" target="_blank"> <i class="p-2 text-white fab fa-twitter-square fa-2x"></i></a>  
+              <a href="https://facebook.com/" target="_blank"> <i class="p-2 text-white fab fa-facebook-square fa-2x"></i></a>
               </div>
             </div>
           </div>
@@ -300,5 +301,5 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" ></script>
         <!--MI ESTILO JS-->
         <script src="assets/js/script.js"></script>
-</body>
+  </body>
 </html>

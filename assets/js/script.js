@@ -1,6 +1,6 @@
 // NAVBAR SCROLL
     $(window).scroll(function() {
-     if ($("#menu").offset().top > 500) {        
+     if ($("#menu").offset().top > 300) {        
          $("#menu").removeClass("bg-transparent");
         $("#menu").addClass("navbar-opacity");
        } else {        
@@ -31,3 +31,4 @@
         });
     
     });
+
