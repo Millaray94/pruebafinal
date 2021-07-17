@@ -25,30 +25,35 @@
     <title>Viajes Chile</title>
 </head>
 <body>
-    
+  
     <!--Navbar-->
+  <div class="row">
+    <div class="col-12">
     <nav id="menu" class="navbar navbar-expand-lg navbar-light fixed-top bg-transparent">
-      <a class="mx-5 navbar-brand text-light" href="#"><img src="assets/img/viajes.svg" class="img-fluid" width="40" alt="logo" class="logo">Viajes Chile</a>
+      <a class="navbar-brand text-light" href="#"><img src="assets/img/viajes.svg" class="img-fluid" width="40" alt="logo" class="logo">Viajes Chile</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto mx-5">
+          <ul class="navbar-nav ml-auto">
             <li class="nav-item text-right">
               <a class="nav-link  text-light" href="#">Inicio <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item text-right">
-              <a class="nav-link text-light" href="#">Quienes somos</a>
+              <a class="nav-link text-light" href="#Quienes-somos">Quienes somos</a>
             </li>
             <li class="nav-item text-right">
-              <a class="nav-link  text-light" href="#">Destacados</a>
+              <a class="nav-link  text-light" href="#Destacados">Destacados</a>
             </li>
             <li class="nav-item text-right">
-              <a class="nav-link  text-light" href="#" tabindex="-1">Contacto</a>
+              <a class="nav-link  text-light" href="#Contacto" tabindex="-1">Contacto</a>
             </li>
           </ul>
         </div>
-      </nav>
+      </div>
+    </div>
+    </nav>
+ 
      
     <!--Carousel-->
 
@@ -78,38 +83,43 @@
 
     <!--Quienes somos-->
     
-    <section class="quienes-somos d-none d-sm-block">
+    <section id="Quienes-somos" class="quienes-somos d-none d-sm-block">
 
 
-      <h3 class="texto text-center text-white pt-5">¿Quienes somos?</h3>
+      <h3 class="texto text-center text-white py-3">¿Quienes somos?</h3>
       <hr>
-
-    <div class="container text-white">
-    <div class="row justify-content-center">
-    <div class="col-md-3 col-sm-12 mx-4">
-    <div class="bg-info col-12 mb-2">
-    <i class="py-1 d-flex justify-content-center fas fa-plane"></i>
-    </div>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et totam quod vel ut accusantium dignissimos, molestias at illo iusto perferendis ex iure consequatur, perspiciatis neque molestiae dicta libero deleniti inventore perspiciatis neque molestiae dicta libero deleniti inventore!</p>
-    </div> 
+     
+      <div class="container text-light py-5">
+        <div class="row justify-content-center">
+          <!--Avion-->
+          <div class="col-md-3 col-sm-12 mx-4">
+           <div class="avion col-12 mb-2">
+            <i class="py-1 d-flex justify-content-center fas fa-plane"></i>
+           </div>
+             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore culpa optio maiores molestiae, sit impedit autem labore quidem ratione non laboriosam neque magnam amet voluptates inventore! Quas consectetur repudiandae numquam!</p>
+           </div> 
+          <!--FIN Avion-->
+        
+          <!--Montaña-->
+            <div class="col-md-3 col-sm-12 mx-4">
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore culpa optio maiores molestiae, sit impedit autem labore quidem ratione non laboriosam neque magnam amet voluptates inventore! Quas consectetur repudiandae numquam!</p>
+                <div class="montaña col-12 mb-2">
+                 <i class="d-flex justify-content-center py-1 fas fa-exclamation-triangle"></i>
+                </div>
+            </div>
+          <!--FIN Montaña-->
+        
+          <!--Ruta-->
+            <div class="col-md-3 col-sm-12 mx-4">
+             <div class="ruta col-12 mb-2">
+              <i class=" d-flex justify-content-center py-1 fas fa-route"></i>
+            </div>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore culpa optio maiores molestiae, sit impedit autem labore quidem ratione non laboriosam neque magnam amet voluptates inventore! Quas consectetur repudiandae numquam!</p>
+            </div>
+          <!--FIN ruta-->
+        </div>
+      </div>
     
-    <div class="col-md-3 col-sm-12 mx-4">
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et totam quod vel ut accusantium dignissimos, molestias at illo iusto perferendis ex iure consequatur, perspiciatis neque molestiae dicta libero deleniti inventore perspiciatis neque molestiae dicta libero deleniti inventore!!</p>
-    <div class="bg-info col-12 mb-2">
-    <i class="d-flex justify-content-center py-1 fas fa-exclamation-triangle"></i>
-    </div>
-    
-    </div>
-    
-    
-    <div class="col-md-3 col-sm-12 mx-4">
-    <div class="bg-info col-12 mb-2">
-    <i class=" d-flex justify-content-center py-1 fas fa-route"></i>
-    </div>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et totam quod vel ut accusantium dignissimos, molestias at illo iusto perferendis ex iure consequatur, perspiciatis neque molestiae dicta libero deleniti inventore perspiciatis neque molestiae dicta libero deleniti inventore!!</p>
-    </div>
-    </div>
-    </div>
     
     </section>
 
@@ -123,36 +133,132 @@
 
     <!--CARDS-->
 
-    <div class="card-group mx-5 my-4">
+    <div id="Destacados" class="card-deck mx-5 my-4 row row-col-12">
         <div class="card bg-primary mx-3 border border-light rounded">
-            <img src="assets/img/card1.jpg" class="card-img-top" alt="card-1">
+            <img src="assets/img/card1.jpg" class="card-img-top" alt="card-1" data-toggle="modal" data-target="#card1">
             <div class="card-body text-center text-light">
-                <h4 class="card-title text-left">Lorem ipsum dolor sit amet</h4>
+                <h4 class="card-title text-left font-weight-bold">Torres del Paine</h4>
                 <p class="card-text text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste iusto odio eligendi numquam aperiam quibusdam laboriosam vero fuga. Cum ducimus quaerat, aspernatur velit possimus adipisci corrupti porro ea ut necessitatibus?</p>
           </div>
         </div>
         <div class="card bg-primary mx-3 border border-light rounded">
-            <img src="assets/img/card2.jpg" class="card-img-top" alt="card-2">
+            <img src="assets/img/card2.jpg" class="card-img-top" alt="card-2" data-toggle="modal" data-target="#card2">
           <div class="card-body text-center text-light">
-            <h4 class="card-title text-left">Lorem ipsum dolor sit amet</h4>
+            <h4 class="card-title text-left font-weight-bold">Laguna Lejía</h4>
                 <p class="card-text text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste iusto odio eligendi numquam aperiam quibusdam laboriosam vero fuga. Cum ducimus quaerat, aspernatur velit possimus adipisci corrupti porro ea ut necessitatibus?</p>
           </div>
         </div>
         <div class="card bg-primary mx-3 border border-light rounded">
-            <img src="assets/img/card3.jpg" class="card-img-top" alt="card-3">
+            <img src="assets/img/card3.jpg" class="card-img-top" alt="card-3" data-toggle="modal" data-target="#card3">
           <div class="card-body text-center text-light">
-            <h4 class="card-title text-left">Lorem ipsum dolor sit amet</h4>
+            <h4 class="card-title text-left font-weight-bold">Reserva Nacional Los Flamencos</h4>
                 <p class="card-text text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste iusto odio eligendi numquam aperiam quibusdam laboriosam vero fuga. Cum ducimus quaerat, aspernatur velit possimus adipisci corrupti porro ea ut necessitatibus?</p>
           </div>
         </div>
         <div class="card bg-primary mx-3 border border-light rounded">
-            <img src="assets/img/card4.jpg" class="card-img-top" alt="card-4">
+            <img src="assets/img/card4.jpg" class="card-img-top" alt="card-4" data-toggle="modal" data-target="#card4">
           <div class="card-body text-center text-light">
-            <h4 class="card-title text-left">Lorem ipsum dolor sit amet</h4>
+            <h4 class="card-title text-left font-weight-bold">Bosque Valdiviano</h4>
             <p class="card-text text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste iusto odio eligendi numquam aperiam quibusdam laboriosam vero fuga. Cum ducimus quaerat, aspernatur velit possimus adipisci corrupti porro ea ut necessitatibus?</p>
           </div>
         </div>
       </div>
+
+      <!-- Modal Torres del Paine-->
+        <div class="modal fade" id="card1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Torres del Paine</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <img src="assets/img/card1.jpg" class="img-fluid my-3 mb-4" alt="card-1">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia repudiandae cumque deleniti odit saepe sequi ad amet, temporibus doloremque facere quae, beatae quisquam. Ea possimus, consectetur optio inventore dolore delectus.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia repudiandae cumque deleniti odit saepe sequi ad amet, temporibus doloremque facere quae, beatae quisquam. Ea possimus, consectetur optio inventore dolore delectus.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia repudiandae cumque deleniti odit saepe sequi ad amet, temporibus doloremque facere quae, beatae quisquam. Ea possimus, consectetur optio inventore dolore delectus.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <!-- Modal Laguna Lejía-->
+
+      <div class="modal fade" id="card2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Laguna Lejía</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <img src="assets/img/card2.jpg" class="img-fluid my-3 mb-4" alt="card-2">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia repudiandae cumque deleniti odit saepe sequi ad amet, temporibus doloremque facere quae, beatae quisquam. Ea possimus, consectetur optio inventore dolore delectus.</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia repudiandae cumque deleniti odit saepe sequi ad amet, temporibus doloremque facere quae, beatae quisquam. Ea possimus, consectetur optio inventore dolore delectus.</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia repudiandae cumque deleniti odit saepe sequi ad amet, temporibus doloremque facere quae, beatae quisquam. Ea possimus, consectetur optio inventore dolore delectus.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal Reserva nacional los flamencos-->
+
+      <div class="modal fade" id="card3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Reserva Nacional Los Flamencos</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <img src="assets/img/card3.jpg" class="img-fluid my-3 mb-4" alt="card-3">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia repudiandae cumque deleniti odit saepe sequi ad amet, temporibus doloremque facere quae, beatae quisquam. Ea possimus, consectetur optio inventore dolore delectus.</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia repudiandae cumque deleniti odit saepe sequi ad amet, temporibus doloremque facere quae, beatae quisquam. Ea possimus, consectetur optio inventore dolore delectus.</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia repudiandae cumque deleniti odit saepe sequi ad amet, temporibus doloremque facere quae, beatae quisquam. Ea possimus, consectetur optio inventore dolore delectus.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal Bosque Valdiviano-->
+
+      <div class="modal fade" id="card4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Bosque Valdiviano</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <img src="assets/img/card4.jpg" class="img-fluid my-3 mb-4" alt="card-3">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia repudiandae cumque deleniti odit saepe sequi ad amet, temporibus doloremque facere quae, beatae quisquam. Ea possimus, consectetur optio inventore dolore delectus.</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia repudiandae cumque deleniti odit saepe sequi ad amet, temporibus doloremque facere quae, beatae quisquam. Ea possimus, consectetur optio inventore dolore delectus.</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia repudiandae cumque deleniti odit saepe sequi ad amet, temporibus doloremque facere quae, beatae quisquam. Ea possimus, consectetur optio inventore dolore delectus.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    
     
     <!--FIN CARDS-->
 
@@ -161,11 +267,27 @@
 
     <!--Typeform-->
  
-    <div class="typeform-widget" data-url="https://form.typeform.com/to/kQzwm2pa?typeform-medium=embed-snippet" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+    <div id="Contacto" class="typeform-widget" data-url="https://form.typeform.com/to/kQzwm2pa?typeform-medium=embed-snippet" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
  
     <!--Footer-->
 
-    
+      <footer class="redes text-white">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col col-lg-6 col-sm-12 my-4 pl-5">
+              <h3>VIAJES CHILE</h3>
+            </div>
+            <div class="col col-lg-6 col-sm-12 my-3 pr-5 text-right">
+              <i class="p-2 fab fa-github-square fa-2x"></i>
+                <i class="p-2 fab fa-linkedin fa-2x"></i>
+                <i class="p-2 fab fa-twitter-square fa-2x"></i>
+                <i class="p-2 fab fa-facebook-square fa-2x"></i>
+              </div>
+            </div>
+          </div>
+       </footer>
+
+    <!--FIN Footer-->
 
 
 
